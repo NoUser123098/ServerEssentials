@@ -21,3 +21,39 @@ commands:
     permission: serveressentials.command.setgpermission
     description: "Sets a permission for a group."
     usage: "/setgpermission <group> <permission>"
+  balance:
+    permission: serveressentials.command.balance
+    description: "Checks your balance."
+    usage: "/balance"
+  givemoney:
+    permission: serveressentials.command.givemoney
+    description: "Gives a player an amount of money."
+    usage: "/givemoney <player> <amount>"
+  setmoney:
+    permission: serveressentials.command.setmoney
+    description: "Sets a player's amount of money."
+    usage: "/setmoney <player> <amount>"
+  makemine:
+    permission: serveressentials.command.makemine
+    description: "Sets an area as a prison mine."
+    usage: "/makemine <name>"
+  setmine:
+    permission: serveressentials.command.setmine
+    description: "Sets the blocks a mine will contain."
+    usage: "/setmine <name> <id> <percent> etc..."
+  resetmine:
+    permission: serveressentials.command.resetmine
+    description: "Resets a mine."
+    usage: "/resetmine <name>"
+  resetallmines:
+    permission: serveressentials.command.resetallmines
+    description: "Resets all mines."
+    usage: "/resetallmines"
+  protectedarea:
+    permission: serveressentials.command.protectarea
+    description: "Protect an area."
+    usage: "/protectedarea <pos1> <pos2> <name>"
+  delprotected:
+    permission: serveressentials.command.deleteprotectedarea
+    description: "Delete an area's protection."
+    usage: "/delprotected <name>"
